@@ -1,0 +1,29 @@
+export default function CheeseLogo({ className = "w-10 h-10" }: { className?: string }) {
+  return (
+    <svg 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      xmlns="http://www.w3.org/2000/svg" 
+      className={className}
+    >
+      <path 
+        d="M20 7L4 11V17C4 18.1046 4.89543 19 6 19H18C19.1046 19 20 18.1046 20 17V7Z" 
+        fill="#D4AF37" 
+        fillOpacity="0.2"
+        stroke="#D4AF37" 
+        strokeWidth="1.5" 
+        strokeLinejoin="round"
+      />
+      <path 
+        d="M20 7L12 4L4 11L20 7Z" 
+        fill="#D4AF37" 
+        stroke="#D4AF37" 
+        strokeWidth="1.5" 
+        strokeLinejoin="round"
+      />
+      <circle cx="8" cy="14" r="1" fill="#D4AF37" />
+      <circle cx="15" cy="16" r="1" fill="#D4AF37" />
+      <circle cx="12" cy="11" r="0.8" fill="#D4AF37" />
+    </svg>
+  );
+}

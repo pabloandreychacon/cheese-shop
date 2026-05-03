@@ -3,7 +3,8 @@
     "home": "Inicio",
     "about": "Quiénes Somos",
     "products": "Productos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "admin": "Admin"
   },
   "hero": {
     "title": "Artesanos del Sabor",
@@ -11,6 +12,103 @@
     "cta": "Ver Catálogo"
   },
   "footer": {
-    "rights": "© 2024 Quesos Don Beto. Todos los derechos reservados."
+    "rights": "© 2024 Quesera Kali. Todos los derechos reservados.",
+    "tagline": "Elaborando los mejores quesos artesanales con pasión y tradición desde hace más de 15 años. De nuestra cava a su mesa.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactInfo": "Información de Contacto",
+    "hours": {
+      "title": "Horario",
+      "weekdays": "Lunes - Sábado: 7:00 AM - 7:00 PM",
+      "sunday": "Domingo: 8:00 AM - 5:00 PM",
+      "holidays": "Las horas en días festivos pueden variar"
+    }
+  },
+  "contact": {
+    "badge": "Ponte en Contacto",
+    "location": "Ubicación",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Ej. Juan Pérez",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@ejemplo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿En qué podemos ayudarte?",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Inténtalo de nuevo."
+    }
+  },
+  "about": {
+    "title": "Nuestra Tradición Quesera",
+    "p1": "Quesera Kali nace de la pasión por lo auténtico. Localizados en el corazón de la región quesera, hemos mantenido vivas las recetas que nuestros abuelos nos heredaron, perfeccionándolas con el paso de los años.",
+    "p2": "Cada queso que sale de nuestra cava es el resultado de un proceso meticuloso donde la calidad de la leche y el tiempo de maduración son nuestros mejores aliados. No buscamos la producción masiva, sino la perfección artesanal.",
+    "quote": "El secreto está en el respeto a la tierra y a los tiempos de la naturaleza.",
+    "since": "Desde 1984",
+    "imgAlt": "Tradición Quesera Kali"
+  },
+  "admin": {
+    "title": "Panel de Administración",
+    "dashboard": "Administración",
+    "signIn": "Entrar",
+    "authenticating": "Entrando...",
+    "passwordLabel": "Contraseña de Acceso",
+    "passwordPlaceholder": "Ingrese contraseña...",
+    "invalidPassword": "Contraseña incorrecta",
+    "authFailed": "Error de autenticación",
+    "settings": "Configuración",
+    "products": "Productos",
+    "settingsSection": {
+      "title": "Configuración del Negocio",
+      "businessName": "Nombre del Negocio",
+      "contactEmail": "Email de Contacto",
+      "phone": "Teléfono / WhatsApp",
+      "address": "Dirección Física",
+      "changePassword": "Cambiar Contraseña",
+      "newPassword": "Nueva Contraseña",
+      "newPasswordPlaceholder": "Dejar en blanco para no cambiar",
+      "confirmPassword": "Confirmar Contraseña",
+      "confirmPasswordPlaceholder": "Confirmar nueva contraseña",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "saveSuccess": "Configuración guardada con éxito",
+      "saveError": "Error al guardar",
+      "connectionError": "Error de conexión",
+      "loading": "Cargando configuración...",
+      "save": "Guardar Cambios",
+      "saving": "Guardando..."
+    },
+    "product": {
+      "addNew": "Añadir Nuevo Producto",
+      "editProduct": "Editar Producto",
+      "nameEs": "Nombre (Español)",
+      "nameEn": "Nombre (Inglés)",
+      "descriptionEs": "Descripción (Español)",
+      "descriptionEn": "Descripción (Inglés)",
+      "price": "Precio",
+      "imageLabel": "Imagen del Producto (Máx. 1MB)",
+      "imageUploadHint": "Click para subir o arrastra aquí",
+      "imageFormats": "PNG, JPG, GIF, WebP hasta 1MB",
+      "uploading": "Subiendo imagen...",
+      "removeImage": "Quitar imagen",
+      "active": "Activo",
+      "isOffer": "Es Oferta",
+      "create": "Crear",
+      "update": "Actualizar",
+      "cancel": "Cancelar",
+      "loading": "Cargando productos...",
+      "deleteConfirm": "¿Eliminar este producto?",
+      "imageSizeError": "La imagen no debe superar 1MB",
+      "imageUploadError": "Error al subir la imagen",
+      "tableProduct": "Producto",
+      "tablePrice": "Precio",
+      "tableStatus": "Estado",
+      "tableActions": "Acciones",
+      "statusActive": "Activo",
+      "statusInactive": "Inactivo",
+      "offer": "Oferta",
+      "noImage": "Sin imagen"
+    }
   }
 }

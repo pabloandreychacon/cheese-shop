@@ -1,5 +1,34 @@
 import { supabase } from '../lib/supabase';
 
+export function getCurrencySymbol(currencyCode?: string): string {
+  const currencySymbols: { [key: string]: string } = {
+    'USD': '$',
+    'CRC': '₡',
+    'EUR': '€',
+    'GBP': '£',
+    'JPY': '¥',
+    'CNY': '¥',
+    'INR': '₹',
+    'BRL': 'R$',
+    'MXN': '$',
+    'CAD': '$',
+    'AUD': '$',
+    'CHF': 'CHF',
+    'SEK': 'kr',
+    'NOK': 'kr',
+    'DKK': 'kr',
+    'PLN': 'zł',
+    'RUB': '₽',
+    'KRW': '₩',
+    'SGD': '$',
+    'HKD': '$',
+    'NZD': '$',
+    'ZAR': 'R',
+    'TRY': '₺'
+  };
+  return currencySymbols[currencyCode || ''] || currencyCode || '$';
+}
+
 export interface BusinessSettings {
   id: number;
   email: string;
@@ -21,7 +50,7 @@ export const defaultSettings: BusinessSettings = {
   latitude: 0,
   longitude: 0,
   onlinePassword: '',
-  currencyCode: '$'
+  currencyCode: 'USD'
 };
 
 export async function getSettings(): Promise<BusinessSettings> {

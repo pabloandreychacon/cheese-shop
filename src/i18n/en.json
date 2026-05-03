@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About Us",
     "products": "Products",
-    "contact": "Contact"
+    "contact": "Contact",
+    "admin": "Admin"
   },
   "hero": {
     "title": "Artisans of Flavor",
@@ -11,6 +12,103 @@
     "cta": "View Catalog"
   },
   "footer": {
-    "rights": "© 2024 Quesos Don Beto. All rights reserved."
+    "rights": "© 2024 Quesera Kali. All rights reserved.",
+    "tagline": "Crafting the finest artisanal cheeses with passion and tradition for over 15 years. From our cellar to your table.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Monday - Saturday: 7:00 AM - 7:00 PM",
+      "sunday": "Sunday: 8:00 AM - 5:00 PM",
+      "holidays": "Holiday hours may vary"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "location": "Location",
+    "phone": "Phone",
+    "email": "Email",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "e.g. John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    }
+  },
+  "about": {
+    "title": "Our Cheese-Making Tradition",
+    "p1": "Quesera Kali was born from a passion for authenticity. Located in the heart of the cheese region, we have kept alive the recipes our grandparents passed down to us, perfecting them over the years.",
+    "p2": "Every cheese that leaves our cellar is the result of a meticulous process where the quality of the milk and the aging time are our greatest allies. We do not seek mass production, but artisanal perfection.",
+    "quote": "The secret lies in respect for the land and nature's own timing.",
+    "since": "Since 1984",
+    "imgAlt": "Quesera Kali Tradition"
+  },
+  "admin": {
+    "title": "Administration Panel",
+    "dashboard": "Administration",
+    "signIn": "Sign In",
+    "authenticating": "Signing in...",
+    "passwordLabel": "Access Password",
+    "passwordPlaceholder": "Enter password...",
+    "invalidPassword": "Incorrect password",
+    "authFailed": "Authentication error",
+    "settings": "Settings",
+    "products": "Products",
+    "settingsSection": {
+      "title": "Business Settings",
+      "businessName": "Business Name",
+      "contactEmail": "Contact Email",
+      "phone": "Phone / WhatsApp",
+      "address": "Physical Address",
+      "changePassword": "Change Password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Leave blank to keep current",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "passwordMismatch": "Passwords do not match",
+      "saveSuccess": "Settings saved successfully",
+      "saveError": "Error saving settings",
+      "connectionError": "Connection error",
+      "loading": "Loading settings...",
+      "save": "Save Changes",
+      "saving": "Saving..."
+    },
+    "product": {
+      "addNew": "Add New Product",
+      "editProduct": "Edit Product",
+      "nameEs": "Name (Spanish)",
+      "nameEn": "Name (English)",
+      "descriptionEs": "Description (Spanish)",
+      "descriptionEn": "Description (English)",
+      "price": "Price",
+      "imageLabel": "Product Image (Max 1MB)",
+      "imageUploadHint": "Click to upload or drag and drop",
+      "imageFormats": "PNG, JPG, GIF, WebP up to 1MB",
+      "uploading": "Uploading image...",
+      "removeImage": "Remove image",
+      "active": "Active",
+      "isOffer": "Is Offer",
+      "create": "Create",
+      "update": "Update",
+      "cancel": "Cancel",
+      "loading": "Loading products...",
+      "deleteConfirm": "Delete this product?",
+      "imageSizeError": "Image must not exceed 1MB",
+      "imageUploadError": "Error uploading image",
+      "tableProduct": "Product",
+      "tablePrice": "Price",
+      "tableStatus": "Status",
+      "tableActions": "Actions",
+      "statusActive": "Active",
+      "statusInactive": "Inactive",
+      "offer": "Offer",
+      "noImage": "No image"
+    }
   }
 }

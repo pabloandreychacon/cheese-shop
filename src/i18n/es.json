@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Quiénes Somos",
+    "products": "Productos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Artesanos del Sabor",
+    "subtitle": "Quesos madurados con tradición y pasión.",
+    "cta": "Ver Catálogo"
+  },
+  "footer": {
+    "rights": "© 2024 Quesos Don Beto. Todos los derechos reservados."
+  }
+}

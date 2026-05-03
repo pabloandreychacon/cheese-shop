@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Artisans of Flavor",
+    "subtitle": "Aged cheeses with tradition and passion.",
+    "cta": "View Catalog"
+  },
+  "footer": {
+    "rights": "© 2024 Quesos Don Beto. All rights reserved."
+  }
+}

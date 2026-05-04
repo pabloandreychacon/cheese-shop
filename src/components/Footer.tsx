@@ -104,6 +104,11 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* qr code */}
+        <div className="pt-8 border-t border-brand-gold/10 text-center flex justify-center">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fqueserakali.netlify.app%2F&amp;qzone=1&amp;margin=0&amp;size=100x100&amp;ecc=L" alt="qr code" />
+        </div>
+
         {/* Rights Section */}
         <div className="pt-8 border-t border-brand-gold/10 text-center text-xs text-gray-500 tracking-widest uppercase">
           {t('footer.rights')}

@@ -108,6 +108,8 @@
       "statusActive": "Activo",
       "statusInactive": "Inactivo",
       "offer": "Oferta",
+      "edit": "Editar",
+      "delete": "Eliminar",
       "noImage": "Sin imagen"
     }
   }

@@ -4,6 +4,7 @@ import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle } from 'lucide-rea
 import { getSettings } from '../utils/settings';
 import type { BusinessSettings } from '../utils/settings';
 import { emailService } from '../lib/emailjs';
+import SEO from '../components/SEO';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -53,6 +54,7 @@ export default function Contact() {
 
   return (
     <div className="py-24 px-4 bg-brand-cream min-h-screen">
+      <SEO title="Contacto" description="Ponte en contacto con Quesera Kali. Visítanos, llámanos o envíanos un mensaje para pedidos y consultas sobre nuestros quesos artesanales." keywords="contacto quesería, pedidos queso, quesería contacto" image="/og-contact.jpg" />
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <span className="text-brand-gold font-bold tracking-[0.3em] uppercase text-xs mb-4 block">

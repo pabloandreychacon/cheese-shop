@@ -1,11 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import aboutImg from '../assets/cheese/©_UVE___MKT_-_Quesos_Don_Beto_-_IMG_9589.avif';
+import SEO from '../components/SEO';
 
 export default function About() {
   const { t } = useTranslation();
 
   return (
     <div className="py-24 px-4 bg-brand-cream min-h-screen">
+      <SEO title="Nosotros" description="Conoce la historia de Quesera Kali, tradición quesera de generaciones. Artesanos dedicados a perfeccionar el arte de la quesería." keywords="sobre nosotros, historia quesería, tradición artesanal, queso artesanal" image="/og-about.jpg" />
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">

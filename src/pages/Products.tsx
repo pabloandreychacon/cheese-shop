@@ -4,6 +4,7 @@ import { supabase } from '../lib/supabase';
 import { getSettings, getCurrencySymbol } from '../utils/settings';
 import { splitBilingualText } from '../utils/bilingual';
 import { Package } from 'lucide-react';
+import SEO from '../components/SEO';
 
 interface Product {
   Id: number;
@@ -47,6 +48,7 @@ export default function Products() {
 
   return (
     <div className="py-24 px-4 bg-brand-cream min-h-screen">
+      <SEO title="Productos" description="Explora nuestra variedad de quesos artesanales: quesos frescos, maduros, ahumados y más. Todos hechos con leche 100% natural." keywords="quesos artesanales, comprar queso, queso fresco, queso maduro, queso ahumado" image="/og-products.jpg" />
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <span className="text-brand-gold font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Selección Especial</span>

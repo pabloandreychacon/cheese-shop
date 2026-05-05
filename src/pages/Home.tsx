@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { HeroCarousel } from '../components/HeroCarousel';
+import SEO from '../components/SEO';
 import heroBg from '../assets/cheese/ea7ebe7d1ea44ed4a339416986435357.avif';
 import secondaryBg from '../assets/cheese/932241edcad04ff180cacc6033d156b8.avif';
 import quoteBg from '../assets/cheese/8cbd8c_6862d831da7144769fc2d061b454d3c1~mv2_d_2027_1348_s_2.avif';
@@ -11,6 +12,7 @@ export default function Home() {
 
   return (
     <div className="overflow-hidden">
+      <SEO title="Inicio" description="Quesos artesanales elaborados con tradición y pasión. Descubre nuestra selección de quesos únicos, hechos con ingredientes naturales y recetas de autor." keywords="quesos artesanales, quesería, queso artesanal, queso de autor" image="/og-home.jpg" />
       {/* Hero Carousel — shows IsOffer products; falls back to static hero if none */}
       <HeroCarousel fallback={
         <section

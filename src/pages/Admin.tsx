@@ -90,25 +90,23 @@ export default function Admin() {
     <div className="min-h-screen bg-brand-cream pt-32 pb-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
-          <h1 className="text-4xl font-serif font-bold text-brand-charcoal uppercase tracking-widest">
+          <h1 className="text-2xl sm:text-4xl font-serif font-bold text-brand-charcoal uppercase tracking-widest">
             {t('admin.dashboard')}
           </h1>
-          
-          <div className="flex bg-white p-1 rounded-lg shadow-sm border border-gray-100">
+
+          <div className="flex flex-col md:flex-row md:items-center bg-white p-1 rounded-lg shadow-sm border border-gray-100">
             <button
               onClick={() => setActiveTab('settings')}
-              className={`flex items-center space-x-2 px-6 py-2 rounded-md font-bold text-xs uppercase tracking-widest transition-all ${
-                activeTab === 'settings' ? 'bg-brand-gold text-white shadow-md' : 'text-gray-400 hover:text-brand-charcoal'
-              }`}
+              className={`flex items-center space-x-2 px-6 py-2 rounded-md font-bold text-xs uppercase tracking-widest transition-all ${activeTab === 'settings' ? 'bg-brand-gold text-white shadow-md' : 'text-gray-400 hover:text-brand-charcoal'
+                }`}
             >
               <Settings size={16} />
               <span>{t('admin.settings')}</span>
             </button>
             <button
               onClick={() => setActiveTab('products')}
-              className={`flex items-center space-x-2 px-6 py-2 rounded-md font-bold text-xs uppercase tracking-widest transition-all ${
-                activeTab === 'products' ? 'bg-brand-gold text-white shadow-md' : 'text-gray-400 hover:text-brand-charcoal'
-              }`}
+              className={`flex items-center space-x-2 px-6 py-2 rounded-md font-bold text-xs uppercase tracking-widest transition-all ${activeTab === 'products' ? 'bg-brand-gold text-white shadow-md' : 'text-gray-400 hover:text-brand-charcoal'
+                }`}
             >
               <Package size={16} />
               <span>{t('admin.products')}</span>
